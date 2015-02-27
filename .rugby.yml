@@ -1,0 +1,16 @@
+-name: MongoDB
+ service:
+    group: db
+    type: mongo
+ install:
+ script:
+
+ -name: UCRCareer
+  service:
+    group: lang
+    type: node
+  install: 
+    - npm install -g bower nodemon gulp mocha 
+  script:
+    - mocha
+
