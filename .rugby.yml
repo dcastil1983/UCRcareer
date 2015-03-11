@@ -15,3 +15,5 @@
     - chown -R vagrant:vagrant /opt/resumes
   script:
     - mocha
+
+config: etc/install/mongod-yaml.conf
