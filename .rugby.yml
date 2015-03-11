@@ -2,6 +2,7 @@
   service:
     group: db
     type: mongo
+  config: etc/install/mongod-yaml.conf
 
 - name: UCRCareer
   service:
